@@ -1,3 +1,8 @@
+/**
+ * Ejercicio #1 de la clase
+ * Consigna: hacer un conversor de AR$ a U$S
+ */
+
 let pesos = 14000;
 
 const cotizacionDolarOficial = 70.0;

@@ -1,3 +1,7 @@
+/**
+ * Ejemplo de uso de la estructura While
+ */
+
 let temperaturaActual = 15;
 const temperaturaDeseada = 28;
 

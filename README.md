@@ -4,9 +4,4 @@
 
 Este repositorio contiene los archivos de código fuente javascript que se usan en las clases de la asignatura.
 
-### Clase 10 - 03/07/2020
-
-Archivos:
-
-* [variables.js](variables.js)
-* [tiposDatos.js](tiposDatos.js)
+Leer los archivos **README.md** de cada carpeta con la correspondiente descripción de su contenido según se han utilizado en cada clase a la que se hace referencia.
