@@ -1,3 +1,7 @@
+/**
+ * Ejemplos presentes en la presentación de la clase a modo de repaso.
+ */
+
 // Definición de variables
 
 // Ejemplo 1 - Declaración con let
