@@ -7,13 +7,13 @@ function convertirMB(valor, unidad) {
     if (unidad == 'Mb') {
         return (valor * 8);
     } else if (unidad == 'KB') {
-        return (valor * 1024);
+        return (valor * 1000);
     } else if (unidad == 'Kb') {
-        return (valor * 1024 * 8);
+        return (valor * 1000 * 8);
     } else if (unidad == 'B') {
-        return ((valor * 1024) * 1000);
+        return ((valor * 1000) * 1000);
     } else if (unidad == 'b') {
-        return ((valor * 1024) * 1000) * 8;
+        return ((valor * 1000) * 1000) * 8;
     }
 }
 
