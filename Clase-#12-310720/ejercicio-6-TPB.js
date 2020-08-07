@@ -1,3 +1,8 @@
+/**
+ * Ejercicio 6 TP B - Resolución propuesta
+ *
+ */
+
 function calificar(nota1, nota2, nota3) {
     let promedio = (nota1 + nota2 + nota3) / 3;
     if (promedio == 10){

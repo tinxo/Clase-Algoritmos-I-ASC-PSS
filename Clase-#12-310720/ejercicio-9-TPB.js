@@ -1,3 +1,8 @@
+/**
+ * Ejercicio 9 TP B - Resolución propuesta
+ *
+ */
+
 function convertirMB(valor, unidad) {
     if (unidad == 'Mb') {
         return (valor * 8);

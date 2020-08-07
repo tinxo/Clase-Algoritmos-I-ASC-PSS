@@ -1,3 +1,8 @@
+/**
+ * Ejercicio 10 TP B - Resolución propuesta
+ *
+ */
+
 function calcularCosto(cantidadLitros, precioLitro) {
     let baseImponible = cantidadLitros * precioLitro;
     let iva = baseImponible * 0.21;
