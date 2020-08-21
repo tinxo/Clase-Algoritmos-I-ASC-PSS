@@ -1,4 +1,4 @@
-//Ejercicio N° 2- TP11 String II
+//Ejercicio N° 7- TP11 String II
 function comprobarCaracter(frase,caracter){
 	var indice= 0;
 	var resultado;	
