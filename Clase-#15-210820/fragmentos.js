@@ -1,54 +1,108 @@
-// endswith()
+/**
+ * Ejemplos presentes en la presentación de la clase.
+ */
 
-let cadena1 = 'I aint gonna live forever';
+// Métodos: toLowerCase() - toUpperCase()
 
-console.log(cadena1.endsWith('ever'));
+let cadena0 = 'no estoy GRITANDO!';
 
-// includes() -- es case sensitive
+console.log(cadena0.toUpperCase());
+// Imprime la cadena 'NO ESTOY GRITANDO!'
+
+console.log(cadena0.toLowerCase());
+// Imprime la cadena 'no estoy gritando!'
+
+console.log(cadena0);
+// Imprime la cadena 'no estoy GRITANDO!'
+
+// -----------------------------------------
+
+// Método: trim()
+
+let cadena1 = '     Esto tiene espacios    ' ;
+
+console.log(`-${cadena1.trim()}-`);
+// Imprime la cadena sin espacios 
+// como referencia se usan "-"
+console.log(`-${cadena1}-`);
+// Imprime la cadena sin cambios 
+
+// -----------------------------------------
+
+// Método: includes()
 
 let cadena2 = 'I just want to live while Im alive';
 
-console.log(cadena2.includes('live'));
+console.log(`Contiene? ${cadena2.includes('live')}`);
+// Imprime true
 
-// indexOf()
+console.log(`Contiene? ${cadena2.includes('Live')}`);
+// Imprime false
+
+console.log(`Contiene? ${cadena2.includes('want', 20)}`);
+// Imprime false
+
+// -----------------------------------------
+
+// Métodos: indexOf() - lastIndexOf()
 
 let cadena3 = 'No dark sarcasm in the classroom';
 
-console.log(cadena3.indexOf('dark'));
+console.log(`Posición de 'k': ${cadena3.indexOf('k')}`);
+// Imprime el valor 6
 
-// lastIndexOf()
+console.log(`Posición de 'K': ${cadena3.indexOf('K')}`);
+// Imprime el valor -1
+
+console.log(`Posición de 'dark': ${cadena3.indexOf('dark')}`);
+// Imprime el valor 3
 
 let cadena4 = 'All in all you are just another brick in the wall';
 
-console.log(cadena4.lastIndexOf('all'));
+console.log(`Última ocurrencia de 'all': ${cadena4.lastIndexOf('all')}`);
+// Imprime el valor 46
 
-// replace()
+// -----------------------------------------
+
+// Método: replace()
 
 let cadena5 = 'Hey you, out there in the cold';
 
-console.log(cadena5.replace('you', 'U'));
+console.log(`Resultado cambio: ${cadena5.replace('you', 'U')}`);
+// Imprime Hey U, out there in the cold
 
-// slice() -- ver si no conviene usar substring()
+console.log(`Resultado cambio: ${cadena5}`);
+// Imprime Hey you, out there in the cold
+
+// -----------------------------------------
+
+// Método: slice() 
 
 let cadena6 = 'But it was only fantasy';
 
-console.log(cadena6.slice(0,2));
+console.log(`Resultado: ${cadena6.slice(0,3)}`);
+// Imprime But
 
-// startsWith()
+console.log(`Resultado: ${cadena6.slice(7)}`);
+// Imprime was only fantasy
 
-let cadena7 = 'Hey you with you ear against the wall';
+console.log(`Resultado: ${cadena6.slice(0,-7)}`);
+// Imprime But it was only 
 
-console.log(cadena7.startsWith('Hey'));
+// -----------------------------------------
 
-// toLowerCase() - toUpperCase()
+// Métodos: startsWith() - endswith()
 
-let cadena8 = 'Ticking away the moments that make up a dull day';
+let cadena7 = 'I play my part and you play your game';
 
-console.log(cadena8.toLowerCase());
-console.log(cadena8.toUpperCase());
+console.log(`Inicia con? ${cadena7.startsWith('Me')}`);
+// Imprime false
 
-// trim()
+console.log(`Inicia con? ${cadena7.startsWith('play', 2)}`);
+// Imprime true
 
-let cadena9 = '     im giving you space    ' ;
+console.log(`Termina con? ${cadena7.endsWith('game')}`);
+// Imprime true
 
-console.log(cadena9.trim());
+console.log(`Termina con? ${cadena7.endsWith('play', 10)}`);
+// Imprime false
