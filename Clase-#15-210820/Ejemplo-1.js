@@ -1,3 +1,7 @@
+/**
+ * Ejemplo de uso de los diferentes métodos presentados en la clase
+ */
+
 let cadena0 = 'hola mundo, hola, hola, la casa'; 
 
 let mayus = cadena0.toUpperCase();
