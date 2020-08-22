@@ -7,6 +7,8 @@
 Introducción al manejo de cadenas de caracteres (string) con JS. Se presentan ejemplos en los siguientes archivos:
 
 * _fragmentos.js_: Ejemplos presentes en la presentación de la clase.
-* _Ejemplo-1.js_:Ejemplo desarrollado en clase sobre los temas de la teoría
-* _EjercicioN2-TP11.js_:Resolucion del ejercicio N° 2 del TP 11 de String trabajado en la clase. 
-* _EjercicioN7-TP11.js_:Resolucion del ejercicio N° 7 del TP 11 de String trabajado en la clase. 
+* _Ejemplo-1.js_: Ejemplo desarrollado en clase sobre los temas de la teoría
+* _Ejercicio-2-TP11.js_: Ejercicio desarrollado en clase - Ejercicio 2 TP 11
+* _Ejercicio-7-TP11.js_: Ejercicio desarrollado en clase - Ejercicio 7 TP 11
+* _Ejercicio-1-TP11.js_: Ejercicio desarrollado en la clase #15 - Ejercicio 1 TP 11
+* _Ejercicio-4-TP11.js_: Ejercicio desarrollado en la clase #15 - Ejercicio 4 TP 11
