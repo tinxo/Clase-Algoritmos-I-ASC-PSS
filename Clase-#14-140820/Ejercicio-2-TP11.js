@@ -1,4 +1,12 @@
-//Ejercicio N° 2 - TP 11 String II
+/**
+ * Ejercicio desarrollado en clase - Ejercicio 2 TP 11
+ * 
+ * Consigna:
+ * Hacer una función que permita contar la cantidad de veces
+ * que aparece una palabra dentro de una cadena de caracteres. 
+ * La cadena de caracteres, terminada en punto, y la palabra 
+ * buscada son ingresadas por el usuario.
+ */
 function comprobarFrase(frase,palabraIngresada){
 	var indice= 0;
 	var cantidad = 0;	
