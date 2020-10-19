@@ -5,9 +5,9 @@
 function ordenacionSeleccion(valoresOrdenar) {
     let minimo = 0;
     let iteraciones, idx, cambio;
-    for(iteraciones = 0; iteraciones < (valoresOrdenar.length-1); iteraciones++){
+    for(iteraciones = 0; iteraciones < (valoresOrdenar.length); iteraciones++){
         minimo = iteraciones;
-        for(idx = iteraciones + 1; idx < (valoresOrdenar.length-1); idx++){
+        for(idx = iteraciones + 1; idx < (valoresOrdenar.length); idx++){
             if (valoresOrdenar[minimo] > valoresOrdenar[idx]) {
                 minimo = idx; 
             }
