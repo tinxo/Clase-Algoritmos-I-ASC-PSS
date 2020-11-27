@@ -3,6 +3,22 @@
  */
 
 // Funciones - consignas
+function itemA(mat = [], monto = 1000.0) {
+    let produccion = [];
+    for (let sucursal = 0; sucursal < mat.length; sucursal++) {
+        produccion.push(mat[sucursal][0] + mat[sucursal][1]);
+    }
+    let max = produccion[0];
+    let pos = 0;
+    for (let sucursal = 1; sucursal < produccion.length; sucursal++) {
+        if (produccion[sucursal] > max) {
+            max = produccion[sucursal];
+            pos = sucursal;
+        }
+    }
+    console.log(`La sucursal con más ventas de los talles S y M es la #${pos+1}`);
+}
+
 const itemB = (mat, monto) => {
     let vecProduccion = [];
     for (let f = 0; f < mat.length; f++) {
@@ -43,4 +59,5 @@ matriz[3] = [1300, 1200, 500, 600, 500];
 
 
 // Invocación de funciones
-itemB(matriz, 1000);
+itemA(matriz, 1000);
+//itemB(matriz, 1000);
