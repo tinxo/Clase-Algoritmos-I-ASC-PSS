@@ -12,6 +12,7 @@
  */
 
 function reemplazar(cadena = '', palabraA = '', palabraB ='') {
+    // la funcion que hace el procesamiento en sí
     let idx = 0;
     let reemplazos = 0;
     while (idx < oracion.length) {
@@ -31,6 +32,7 @@ function reemplazar(cadena = '', palabraA = '', palabraB ='') {
 }
 
  function parcial (txt = '', paramA = '', paramB = '') {
+     // la funcion que se va a llamar desde el aula virtual
      let i = 0;
      let cantOraciones = 0;
      let cantReemplazos = 0;
