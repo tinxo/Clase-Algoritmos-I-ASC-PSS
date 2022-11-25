@@ -7,7 +7,8 @@ function suma(a, b) {
     console.log('Mensaje dentro de la función');
     console.log(`El resultado de la suma va a ser: ${a + b}`);
     return a + b;
-    console.log('Mensaje después del return de la función');
+    // linea originalmente agregada para mostrar un punto, se pasa a comentar
+    // console.log('Mensaje después del return de la función');
 }
 
 let numA = 5;
